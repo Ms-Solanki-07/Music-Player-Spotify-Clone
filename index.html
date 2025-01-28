@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mucic Player | Spotify Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img class="invert logo" src="assests/logo.svg" alt="logo">
+            <img class="humburger" src="assests/humburger.svg" alt="humburger">
+        </div>
+        <div class="search-bar">
+            <form action="">
+                <img class="invert" src="assests/lens.svg" alt="lens">
+                <input type="text" placeholder="What do you want to play?">
+            </form>
+        </div>
+        <div class="nav-right">
+            <h4>Sign up</h4>
+            <button id="log-in">Log in</button>
+        </div>
+    </nav>
+    <main>
+        <div class="main-left">
+            <div class="lib">
+                <div class="library">
+                    <img class="invert" src="assests/file.svg" alt="files">
+                    <h3>Your Library</h3>
+                </div>
+                <img class="cross" src="assests/cross.svg" alt="cross">
+            </div>
+
+            <div id="playlist">
+                <ul> </ul>
+            </div>
+            <div class="cookies">
+                <a href="#">legal</a>
+                <a href="#">Safety & Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About ads</a>
+                <a href="#">Accessibility</a>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="heading">
+                <h2>Popular albums and singles</h2>
+            </div>
+            <div class="albumsContainer"></div>
+            <div class="abouts">
+                <div class="links">
+                    <h3>Company</h3>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">for the records</a>
+                </div>
+                <div class="links">
+                    <h3>Communities</h3>
+                    <a href="#">for Artist</a>
+                    <a href="#">developers</a>
+                    <a href="#">advertising</a>
+                    <a href="#">investor</a>
+                    <a href="#">vendors</a>
+                </div>
+                <div class="links">
+                    <h3>Useful links</h3>
+                    <a href="#">Supports</a>
+                    <a href="#">Free Mobile app</a>
+                </div>
+                <div class="links">
+                    <h3>Spotify Plans</h3>
+                    <a href="#">Premium individual</a>
+                    <a href="#">premium deo</a>
+                    <a href="#">premium family</a>
+                    <a href="#">premium student</a>
+                    <a href="#">spotify free</a>
+                </div>
+                <div class="social-media">
+                    <h3>Follow us</h3>
+                    <img src="assests/insta.svg" alt="insta">
+                    <img src="assests/twitter.svg" alt="twitter">
+                    <img src="assests/fb.svg" alt="fb">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="play-bar">
+            <div id="song-info"></div>
+            <div id="music-control">
+                <img id="previous" src="assests/previousPlay.svg" alt="previousPlay">
+                <img id="play" src="assests/play.svg" alt="previousPlay">
+                <img id="next" src="assests/nextPlay.svg" alt="previousPlay">
+            </div>
+            <div id="song-duration">00:00 / 00:00</div>
+            <div id="volumeInfo">
+                <img src="assests/volumes.svg" alt="speaker">
+                <input type="range" name="volume">
+            </div>
+        </div>
+        <div id="sheek-bar">
+            <hr class="thick">
+            <div class="circle"></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
